@@ -1,2 +1,0 @@
-This code has been written to solve a sodoku problem given in the form of a 9x9 matrix given by the user as input or taken from the data.txt file as an example.
-	The init function initialises all the empty places to 1022 i.e. 1111111110 in binary. This value denotes the possibilities of numbers that can occupy the given block. When a number given in the question is found, that number is removed from the possibility list of that row, column and block. (this is done by subtracting 2^n from 1022, n is the number found)
